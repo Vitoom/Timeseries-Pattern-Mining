@@ -8,5 +8,6 @@ DTW可以计算两个时间序列的相似度，尤其适用于不同长度、�
 ### 1.2 t-SNE
 SNE是通过仿射(affinitie)变换将数据点映射到概率分布上，主要包括两个步骤：<br>
 > * SNE构建一个高维对象之间的概率分布，使得相似的对象有更高的概率被选择，而不相似的对象有较低的概率被选择。
-> * SNE在低维空间里在构建这些点的概率分布，使得这两个概率分布之间尽可能的相似。
+> * SNE在低维空间里在构建这些点的概率分布，使得这两个概率分布之间尽可能的<img src="http://latex.codecogs.com/gif.latex?\frac{a}{b}" />相似。
+##
 <img src="http://latex.codecogs.com/gif.latex?\frac{a}{b}" />
