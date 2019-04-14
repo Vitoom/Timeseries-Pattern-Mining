@@ -17,5 +17,5 @@ SNE是先将欧几里得距离转换为条件概率来表达点与点之间的�
 那对于低维度下的xi，我们可以指定高斯分布为方差为1/sqrt(2)，因此它们之间的相似度如下:
 ![image](https://latex.codecogs.com/gif.latex?p_{j|i}=\frac{{exp}^{(-||x_i-x_j||^2)}}{\sum_{k\neq i}{exp}^{(-||x_i-x_j||^2)}})
 同样，设定q_{i∣i}=0.
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=p_{j|i}=\frac{{exp}^{(-||x_i-x_j||^2)}}{\sum_{k\neq i}{exp}^{(-||x_i-x_j||^2)}}" style="border:none;">
 
