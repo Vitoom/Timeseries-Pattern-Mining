@@ -15,6 +15,7 @@ SNE是先将欧几里得距离转换为条件概率来表达点与点之间的�
 <img src="http://chart.googleapis.com/chart?{p_{j|i}=\frac{{exp}^{(-||x_i-x_j||^2/(2\sigma_i^2))}}{\sum_{k\neq i}{exp}^{(-||x_i-x_j||^2/(2\sigma_i^2))}}}" />
 这里的有一个参数是σi，对于不同的点xi取值不一样，后续会讨论如何设置。此外设置p_{x∣x}=0,因为我们关注的是两两之间的相似度。
 那对于低维度下的xi，我们可以指定高斯分布为方差为1/sqrt(2)，因此它们之间的相似度如下:
+![image](https://latex.codecogs.com/gif.latex?p_{j|i}=\frac{{exp}^{(-||x_i-x_j||^2)}}{\sum_{k\neq i}{exp}^{(-||x_i-x_j||^2)}})
 <img src="http://latex.codecogs.com/gif.latex?p_{j|i}=\frac{{exp}^{(-||x_i-x_j||^2)}}{\sum_{k\neq i}{exp}^{(-||x_i-x_j||^2)}}" />
 同样，设定q_{i∣i}=0.
 
